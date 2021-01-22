@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vang"
+    tools:context=".ui.WatchDetail">
+
+    <ImageView
+        android:id="@+id/viewPhone3"
+        android:layout_width="401dp"
+        android:layout_height="347dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view4"
+        android:layout_width="393dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_light"
+        app:itemBackground="@android:color/holo_orange_light"
+        app:itemIconTint="@color/colorItemAccount"
+        app:itemTextColor="@color/colorItemAccount"
+        app:menu="@menu/bottom_call"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <TextView
+        android:id="@+id/txtTilte4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/viewPhone3"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/txtPrice4"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/txtTilte4"
+        android:textColor="@color/design_default_color_error"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+
+    <TextView
+        android:id="@+id/txtDescription4"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_below="@+id/txtPrice4"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView49"
+        android:layout_marginTop="20dp"
+        android:text="Màu sắc:"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDescription4"
+        android:layout_marginTop="20dp"
+        android:text="Dòng máy:"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView48"
+        android:layout_marginTop="20dp"
+        android:text="Tình trạng:"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="20dp"
+        android:text="Bộ nhớ:"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <TextView
+        android:id="@+id/txtModel4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtDescription4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <TextView
+        android:id="@+id/txtStatus4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/txtModel4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/txtColor4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txtStatus4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <TextView
+        android:id="@+id/txtMemory4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/txtColor4"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="686dp" />
+</RelativeLayout>

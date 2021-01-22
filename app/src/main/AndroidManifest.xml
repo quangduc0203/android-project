@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chotot"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chotot"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity android:name=".ui.MyWatchDetail"></activity>
+        <activity android:name=".ui.MyTabletDetail" />
+        <activity android:name=".ui.MyLaptopDetail" />
+        <activity android:name=".ui.MyPhoneDetail" />
+        <activity android:name=".ui.MyListWatch" />
+        <activity android:name=".ui.MyListTablet" />
+        <activity android:name=".ui.MyListLaptop" />
+        <activity android:name=".ui.MyListPhone" />
+        <activity android:name=".ui.ListProductUser" />
+        <activity android:name=".ui.Thongbao" />
+        <activity android:name=".ui.ChangeInfo" />
+        <activity android:name=".ui.InforAccount" />
+        <activity android:name=".ui.WatchDetail" />
+        <activity android:name=".ui.TabletDetail" />
+        <activity android:name=".ui.LaptopDetail" />
+        <activity android:name=".ui.ViewListWatch" />
+        <activity android:name=".ui.ViewListTablet" />
+        <activity android:name=".ui.ViewListLaptop" />
+        <activity android:name=".ui.NewWatch" />
+        <activity android:name=".ui.NewTablet" />
+        <activity android:name=".ui.NewLaptop" />
+        <activity android:name=".ui.NewPhone" />
+        <activity android:name=".ui.SendSMS" />
+        <activity android:name=".ui.PhoneDetail" />
+        <activity android:name=".ui.ViewListPhone" />
+        <activity android:name=".ui.ScreenActivity" />
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

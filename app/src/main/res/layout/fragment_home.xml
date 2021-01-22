@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtLaptop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vang"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="410dp"
+        android:layout_height="196dp"
+        android:layout_below="@id/searchView2"
+        android:src="@drawable/unnamed" />
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="401dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="3dp" />
+
+    <ImageView
+        android:id="@+id/imagePhone"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_below="@id/imageView2"
+        android:onClick="Phone"
+        android:src="@drawable/bannerphone" />
+
+    <ImageView
+        android:id="@+id/imageLap"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_below="@id/imagePhone"
+        android:layout_marginTop="0dp"
+        android:onClick="laptop"
+        android:src="@drawable/bannerlaptop" />
+
+    <ImageView
+        android:id="@+id/imageWatch"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_below="@id/imageTablet"
+        android:onClick="watch"
+        android:src="@drawable/bannersmartwatch" />
+
+    <ImageView
+        android:id="@+id/imageTablet"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_below="@id/imageLap"
+        android:layout_marginTop="2dp"
+        android:onClick="tablet"
+        android:src="@drawable/bannertablet" />
+
+
+</RelativeLayout>

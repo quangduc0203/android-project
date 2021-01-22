@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vang">
+    <include layout="@layout/toolbar_thongbao"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                app:srcCompat="@drawable/tb1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="HỖ TRỢ GIAO HÀNG, ĐẨY HÀNG QUA MÙA DỊCH"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Bạn có muốn vượt qua những xáo trộn, khó khăn mà 'Cô-vít' mang đến? Chợ tốt biết vẫn còn rất nhiều người đang ở nhà tích cực săn các món đồ có mức giá phù hợp với họ, hãy cho họ xem hàng online và giao hàng tận nơi nhé!" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="Chúc bạn vững tay chèo sau mùa dịch." />
+            <ImageView
+                android:id="@+id/imageview14"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/tb2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="28dp"
+                android:text="Người đẹp vì lụa, úng dụng bung lụa thì cập nhật ngay!"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Một vài tính năng mới cùng với thiết kế mỹ miều đã được mang lên giao diện của bản cập nhật này.Cập nhật ngay để có đươc trải nghiệm mượt mà nhé!" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="CẬP NHẬT PHIÊN BẢN MỚI"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/tb3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="[CHỐNG DỊCH CORONA]CHÚ Ý QUAN TRONG KHI MUA"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Khi giao dịch thành công với người mua-người bán, thay vì bắt tay, bạn nên chọn phương pháp thay thế sau để tránh trao nhau virus:"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="BẮN TIM. Lưu ý: Nếu cả 2 là nam, khi bắn tim khuôn mặt không nên trìu mến thái quá, dễ gây hoảng sợ cho đối tác nam bên kia."/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="HÔN GIÓ. Nên hôn gió ở khoảng cách trên 2 mét và cả 2 vẫn đang cùng mang khẩu trang. Thêm vào đó, để tránh ảnh hưởng xấu đến súc khỏe, bên nam không nên hôn gió bên nữ có chồng tập gym hoặc tập võ."/>
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/tb4"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="AN TOÀN MUA HÀNG"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Tình hình lừa đảo trực tuyến ngày càng tăng mạnh, hãy cảnh giác trước khi mua hàng bạn nhé:"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Không đặt cọc hoặc chuyển tiền trước(dù giá trị nhỏ nhất). Nên chọn hình thức mua hàng thông qua COD(nhận hàng mới trả tiền)."
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:text="Nếu nghi ngờ giao dịch không an toàn hãy liên hệ cho chúng tôi để được hỗ trợ!!! Số điện thoại liên hệ: 0982515705 or GMAIL: support@gmail.com"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

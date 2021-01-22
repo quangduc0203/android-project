@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vang"
+    tools:context=".ui.ListProductUser">
+
+    <Button
+        android:id="@+id/btnListTablet"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:onClick="callActivity"
+        android:layout_below="@id/btnListLaptop"
+        android:text="Tablet"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/btnListPhone"
+
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:onClick="callActivity"
+        android:layout_below="@id/imageView7"
+        android:text="Phone"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/btnListLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:onClick="callActivity"
+        android:text="Laptop"
+        android:layout_below="@id/btnListPhone"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_dangtin" />
+
+    <Button
+        android:id="@+id/btnListWath"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:onClick="callActivity"
+        android:text="Watch"
+        android:layout_below="@id/btnListTablet"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        app:srcCompat="@drawable/banner" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_below="@id/btnListWath"
+        android:layout_marginTop="3dp"
+        tools:srcCompat="@drawable/b" />
+
+
+</RelativeLayout>
